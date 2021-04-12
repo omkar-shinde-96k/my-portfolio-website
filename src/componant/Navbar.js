@@ -32,11 +32,15 @@ function Navbar() {
                 <div style={{ display: "flex" }}>
                     <a href="" className="mybtn text-center"> Hire Me</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="" className="mybtn text-center"> Download CV</a>
                 </div>
-                <div  className="social-icons">
+                <div className="social-icons">
                     <a data-aos="zoom-in" data-aos-offset="100" href="https://github.com/omkar-shinde-96k" class="fa fa-github"></a>
                     <a data-aos="zoom-in" data-aos-offset="100" href="https://www.instagram.com/learn_web_development/" class="fa fa-instagram"></a>
                     <a data-aos="zoom-in" data-aos-offset="100" href="" class="fa fa-facebook-square"></a>
                     <a data-aos="zoom-in" data-aos-offset="100" href="" class="fa fa-envelope"></a>
+                </div>
+                <br></br>
+                <div className="text-center"> 
+                    <a href="#about" class=" fa fa-chevron-circle-down" style={{fontSsize:"48px",color:"white",fontSize:"60px",textDecoration:"none"}}></a>
                 </div>
             </div>
 
@@ -61,7 +65,7 @@ function Navbar() {
                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                 <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.instagram.com/learn_web_development/" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> 
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
 
