@@ -7,8 +7,7 @@
  }
    
 //  Navbar css start *********************************************
-
-
+ 
  .navbar{
     width: 100%;  
     display: flex; 
@@ -71,9 +70,9 @@
       }
  
 }
-   
+// https://waawfoundation.org/waawblog/wp-content/uploads/2020/12/00l8p1iqqfNP3HRG3TtTgXl-1.1587974089.fit_lim.fit_lim.size_956x.jpg
 .main{
-  background-image: url('https://waawfoundation.org/waawblog/wp-content/uploads/2020/12/00l8p1iqqfNP3HRG3TtTgXl-1.1587974089.fit_lim.fit_lim.size_956x.jpg');
+  background-image: url('http://127.0.0.1:3000/images/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,7 +220,6 @@
     }
   }
 }
-
 
 // Footer Css code start
 
