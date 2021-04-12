@@ -69,10 +69,9 @@
         }
       }
  
-}
-// https://waawfoundation.org/waawblog/wp-content/uploads/2020/12/00l8p1iqqfNP3HRG3TtTgXl-1.1587974089.fit_lim.fit_lim.size_956x.jpg
+} 
 .main{
-  background-image: url('http://127.0.0.1:3000/images/bg.jpg');
+  background-image: url('https://waawfoundation.org/waawblog/wp-content/uploads/2020/12/00l8p1iqqfNP3HRG3TtTgXl-1.1587974089.fit_lim.fit_lim.size_956x.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,20 +80,21 @@
   margin: 30px 0 0px 0px;
   display: flex; 
   flex-direction: column; 
-  justify-content: center;  
+  // justify-content: center;  
   filter: contrast(10px);
   color: white;
   padding-left: 90px;
   @media screen and (max-width: 800px) {
-    padding-left: 10px;
+  padding-left: 10px;
   }
 
     h1{ 
       color: orange;   
       font-size: 40px;
+      margin-top: 120px;
     }
-    h2{
-      
+    h5{
+      color: orange; 
     }
     p{
       max-width: 750px; 

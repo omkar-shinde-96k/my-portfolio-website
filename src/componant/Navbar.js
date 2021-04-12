@@ -21,10 +21,10 @@ function Navbar() {
             <div className="main">
                 <h1 data-aos="zoom-in-down" >Hello,</h1>
                 <h2 data-aos="zoom-in-down">I'm Omkar Shinde</h2>
-                <h1 data-aos="zoom-in-down" class="typewrite" data-period="2000" data-type='[ "Web Devloper", "React Developer", "Web Designer"  ]'>
+                <h4 data-aos="zoom-in-down" class="typewrite" data-period="2000" data-type='[ "Web Devloper", "React Developer", "Web Designer"  ]'>
                     <span class="wrap"></span>
 
-                </h1>
+                </h4>
                 <p data-aos="zoom-in-down">
                     I am passionate about building excellent Website that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. What would you do if you had a software expert available at your fingertips?
                 </p>
