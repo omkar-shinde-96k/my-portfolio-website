@@ -3,27 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul{ 
-     display: flex;
-     text-decoration: none;
-     list-style: none;
-     justify-content: center;
-        .project-nav a{ 
-            margin:40px;
-            font-size: 20px;
-            transition: 0.2s;
-            text-decoration: none;
-        } 
-        .active{
-            color:orange ;   
-            font-size: 23px !important; 
-        } 
+// ul{ 
+//      display: flex;
+//      text-decoration: none;
+//      list-style: none;
+//      justify-content: center;
+        
+// }
+
+.project-nav{ 
+    margin-top: 20px;
 }
 
-
-.project-row{
-    // height: 400px;
-}
+.project-nav *{  
+    font-size: 20px;
+    transition: 0.1s;
+    text-decoration: none; 
+    outline:none;
+} 
+.active{
+    color:orange !important;   
+    font-size: 22px !important; 
+} 
+ 
+// .project-row{
+//     height: 400px;
+// }
 .project-outer{
     height:350px;
     width: 100%;

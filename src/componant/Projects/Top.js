@@ -1,14 +1,16 @@
 import React from 'react'
 
-function ProjectCom() {
+function ProjectCom(props) {
     return (
         <>
-            <div className="project-inner">
-                <img src="../../images/bg.jpg" width="100%" height="60%" />
-                <p>Fast load times and lag free interaction, my highest priority.</p>
-                <div class="d-flex justify-content-around">
-                    <a href="/" style={{ color: "black", border: "1px solid black" }} class="mybtn">priview</a>
-                    <a href="/" style={{ color: "black", border: "1px solid black" }} class="mybtn">Source Code</a>
+            <div data-aos="zoom-in" className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12  ">
+                <div className="project-inner">
+                    <img src={props.img} width="100%" height="60%" />
+                    <p>{props.title}</p>
+                    <div class="d-flex justify-content-around">
+                        <a href={props.priview} style={{ color: "black", border: "1px solid black" }} class="mybtn">Priview</a>
+                        <a href={props.github} style={{ color: "black", border: "1px solid black" }} class="mybtn">Code</a>
+                    </div>
                 </div>
             </div>
         </>
@@ -21,18 +23,23 @@ function Top() {
         <>
             <div className="container-fluid">
                 <div className="row project-row" >
-                    <div data-aos="zoom-in" className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12  ">
-                        <ProjectCom />
-                    </div>
-                    <div data-aos="zoom-in" className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
-                        <ProjectCom />
-                    </div>
-                    <div data-aos="zoom-in" className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12   ">
-                        <ProjectCom />
-                    </div>
-                    <div data-aos="zoom-in" className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12    ">
-                        <ProjectCom />
-                    </div>
+
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+
+
+                </div>
+
+                <div className="row project-row" >
+
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+                    <ProjectCom img="../../images/bg.jpg" github="" priview="" title="Fast load times and lag free interaction, my highest priority." />
+
+
                 </div>
             </div>
         </>

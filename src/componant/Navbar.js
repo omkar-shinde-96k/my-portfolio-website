@@ -35,6 +35,12 @@ function Navbar() {
                     <a data-aos="zoom-in" data-aos-offset="100" href="" class="fa fa-facebook-square"></a>
                     <a data-aos="zoom-in" data-aos-offset="100" href="" class="fa fa-envelope"></a>
                 </div>
+
+                <br></br>
+                <div className="text-center"> 
+                    <a href="#about" class=" fa fa-chevron-circle-down" style={{fontSsize:"48px",color:"white",fontSize:"60px",textDecoration:"none"}}></a>
+                </div>
+                
             </div> 
             <div className="drower">
                 <div className="menu2">
