@@ -17,7 +17,7 @@ const About = () => {
     }
     return (
         <div>
-            <h1 id="about" data-aos="zoom-in" className="text-center p-4 pb-0"> About Us </h1>
+            <h1 id="about" className="text-center p-4 pb-0"> About Us </h1>
 
             <div className="container-fluid">
                 <div className="row">
@@ -52,10 +52,6 @@ const About = () => {
                 </div>
             </div>
 
-
-
-
-
             <div className="container " >
                 <div className="row">
                     <div data-aos="fade-right"  className="about-text text-center col-xl-6 col-sm-12 p-5 ">
@@ -68,14 +64,14 @@ const About = () => {
                     <div data-aos="fade-right" className="text-center d-flex flex-column justify-content-center  col-xl-6 col-sm-12 ">
 
                         <div className="skills-box">
-                            <Skill id="html" name="HTML" percent="90%" />
-                            <Skill id="css" name="CSS & Sass" percent="90%" />
-                            <Skill id="javascript" name="Javascript" percent="75%" />
-                            <Skill id="bootstrap" name="Bootstrap" percent="90%" />
-                            <Skill id="jq" name="jQuery" percent="80%" />
-                            <Skill id="react" name="React js" percent="75%" />
-                            <Skill id="node" name="Node Js" percent="75%" />
-                            <Skill id="mongo" name="MongoDB" percent="75%" />
+                            <Skill id="html" name="HTML"/>
+                            <Skill id="css" name="CSS & Sass"/>
+                            <Skill id="javascript" name="Javascript"/>
+                            <Skill id="bootstrap" name="Bootstrap"/>
+                            <Skill id="jq" name="jQuery"/>
+                            <Skill id="react" name="React js"/>
+                            <Skill id="node" name="Node Js"/>
+                            <Skill id="mongo" name="MongoDB"/>
                         </div>
 
                     </div>
