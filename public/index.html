@@ -55,7 +55,7 @@
       $(window).scroll(function () {
         var scrollTop = $(window).scrollTop()
         console.log(scrollTop);
-        if (scrollTop > 800) {
+        if (scrollTop > 400) {
           progress()
         } else {
           progressEnd()
@@ -63,11 +63,7 @@
       });
  
     });
-
-
-
-
-
+ 
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;

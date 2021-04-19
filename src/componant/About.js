@@ -19,6 +19,35 @@ const About = () => {
         <div>
             <h1 id="about" className="text-center p-4 pb-0"> About Us </h1>
 
+            <div className="container " >
+                <div className="row">
+                    <div data-aos="fade-right" className="about-text text-center col-xl-6 col-sm-12 p-5 ">
+                        <img src="../images/omkar.jpg" width="300px" height="300px"></img>
+                        <h1> Who's this guy?</h1>
+                        <p> I'm a Full Stack Web Developer ,
+                        I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. .</p>
+                    </div>
+
+                    <div data-aos="fade-right" className="text-center d-flex flex-column justify-content-center  col-xl-6 col-sm-12 ">
+
+                        <div className="skills-box">
+                            <Skill id="html" name="HTML" />
+                            <Skill id="css" name="CSS & Sass" />
+                            <Skill id="javascript" name="Javascript" />
+                            <Skill id="bootstrap" name="Bootstrap" />
+                            <Skill id="jq" name="jQuery" />
+                            <Skill id="react" name="React js" />
+                            <Skill id="node" name="Node Js" />
+                            <Skill id="mongo" name="MongoDB" />
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
             <div className="container-fluid">
                 <div className="row">
                     <div data-aos="zoom-in" className="about-child text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12  ">
@@ -51,36 +80,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="container " >
-                <div className="row">
-                    <div data-aos="fade-right"  className="about-text text-center col-xl-6 col-sm-12 p-5 ">
-                        <img src="../images/omkar.jpg" width="300px" height="300px"></img>
-                        <h1> Who's this guy?</h1>
-                        <p> I'm a Full Stack Web Developer ,
-                        I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. .</p>
-                    </div>
-
-                    <div data-aos="fade-right" className="text-center d-flex flex-column justify-content-center  col-xl-6 col-sm-12 ">
-
-                        <div className="skills-box">
-                            <Skill id="html" name="HTML"/>
-                            <Skill id="css" name="CSS & Sass"/>
-                            <Skill id="javascript" name="Javascript"/>
-                            <Skill id="bootstrap" name="Bootstrap"/>
-                            <Skill id="jq" name="jQuery"/>
-                            <Skill id="react" name="React js"/>
-                            <Skill id="node" name="Node Js"/>
-                            <Skill id="mongo" name="MongoDB"/>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-
-
 
         </div>
     )

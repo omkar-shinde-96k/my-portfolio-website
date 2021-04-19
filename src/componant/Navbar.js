@@ -29,11 +29,11 @@ function Navbar() {
                 <div style={{ display: "flex" }}>
                     <a href="" className="mybtn text-center"> Hire Me</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="" className="mybtn text-center"> Download CV</a>
                 </div>
-                <div  className="social-icons">
-                    <a data-aos="zoom-in" data-aos-offset="100" href="https://github.com/omkar-shinde-96k" class="fa fa-github"></a>
-                    <a data-aos="zoom-in" data-aos-offset="100" href="https://www.instagram.com/learn_web_development/" class="fa fa-instagram"></a>
-                    <a data-aos="zoom-in" data-aos-offset="100" href="" class="fa fa-facebook-square"></a>
-                    <a data-aos="zoom-in" data-aos-offset="100" href="" class="fa fa-envelope"></a>
+                <div data-aos="zoom-in" className="social-icons">
+                    <a href="https://github.com/omkar-shinde-96k" class="fa fa-github"></a>
+                    <a href="https://www.instagram.com/learn_web_development/" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/learn_web_development-117663443596435" class="fa fa-facebook-square"></a>
+                    <a href="" class="fa fa-envelope"></a>
                 </div>
 
                 <br></br>
