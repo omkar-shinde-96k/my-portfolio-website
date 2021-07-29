@@ -71,7 +71,7 @@ const About = () => {
                             <p>Strong preference for easy to use, intuitive UX/UI.</p>
                         </div>
                     </div>
-                    <div className="about-child text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12    ">
+                    <div className="about-child text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div data-aos="zoom-in" className="boxshadow">
                             <i className="fa fa-rocket"></i>
                             <h2>Dynamic</h2>
@@ -79,6 +79,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div  id="projects"></div>
             </div>
 
         </div>

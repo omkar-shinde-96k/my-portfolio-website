@@ -2,14 +2,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <div id="footer" >
+        < >
+            {/* <div id="footer" >
 
-            </div>
+            </div> */}
             <div className="footer2">
-                <p>All Rights Reserved @ 2020 </p>
+                <p>All Rights Reserved | Design By <a href="" style={{color:"white",}}>Omkar Shinde</a> </p>
             </div>
-        </div>
+            <a href="#" style={{position:"fixed",bottom:"20px",right:"20px",color:"blue",fontSize:"43px",textDecoration:"none"}} class="fa fa-arrow-up"></a>
+        </ >
     )
 }
 

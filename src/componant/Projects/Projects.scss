@@ -2,15 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-}
-// ul{ 
-//      display: flex;
-//      text-decoration: none;
-//      list-style: none;
-//      justify-content: center;
-        
-// }
-
+} 
 .project-nav{ 
     margin-top: 20px;
 }
@@ -24,11 +16,7 @@
 .active{
     color:orange !important;   
     font-size: 22px !important; 
-} 
- 
-// .project-row{
-//     height: 400px;
-// }
+}
 .project-outer{
     height:350px;
     width: 100%;
@@ -38,15 +26,17 @@
     box-shadow: 0px 0px 10px gray;
     margin: 0px;
     padding:10px;
-    height: 100%;
+    height: 90%;
     transition: 0.4s;
       &:hover{
         transform:scale(1.1);
       }
+      h5{
+          margin-top: 7px;
+      }
   }
 .main-box{
-    box-shadow: 0px 0px 10px gray; 
-    // padding:20px;
+    box-shadow: 0px 0px 10px gray;  
     height: 100%;
     width: 100%;
     transition: 0.4s;   
