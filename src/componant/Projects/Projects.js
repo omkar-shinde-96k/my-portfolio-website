@@ -92,7 +92,7 @@ function Projects() {
 
                     <ProjectCom img="../../images/mvflex.jpg" github="https://github.com/omkar-shinde-96k" priview="http://downloadmovies.unaux.com/" title="Movie Downloading Site" details="HTML 5, CSS 3, Javascript , Bootstrap , Jquery" />
 
-                    <ProjectCom img="../../images/portfolio.jpg" github="https://github.com/omkar-shinde-96k" priview="" title="Live Weather App" details="HTML , SCSS , Javascript , Bootstrap , React Js" />
+                    <ProjectCom img="../../images/weather.jpg" github="https://github.com/omkar-shinde-96k" priview="https://live-weather-today.herokuapp.com/" title="Live Weather App" details="HTML , SCSS , Javascript , Bootstrap , React Js" />
 
                     <ProjectCom img="../../images/webwhatsapp.jpg" github="https://github.com/omkar-shinde-96k" priview="http://whatsappweb.unaux.com" title="Web Whatsapp UI" details="HTML 5 , SCSS 3 , Javascript , Bootstrap &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " />
 
