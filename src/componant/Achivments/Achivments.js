@@ -9,7 +9,7 @@ function ProjectCom(props) {
         <>
             <div data-aos="zoom-in"  style={{height:"310px"}} className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12  ">
                 <div className="project-inner">
-                    <img src={props.img} width="100%" height="80%" />
+                    <img src={props.img} width="100%" height="80%" alt="project img"/>
                     <h5>{props.title}</h5>
                     <p>{props.details}</p>
                

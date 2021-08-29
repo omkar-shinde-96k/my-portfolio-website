@@ -4,7 +4,7 @@ function ProjectCom(props) {
         <>
             <div data-aos="zoom-in" className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12  ">
                 <div className="project-inner">
-                    <img src={props.img} width="100%" height="60%" />
+                    <img src={props.img} width="100%" height="60%" alt="project img" />
                     <p>{props.title}</p>
                     <div class="d-flex justify-content-around">
                         <a href={props.priview} style={{ color: "black", border: "1px solid black" }} class="mybtn">Priview</a>

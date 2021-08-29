@@ -19,7 +19,7 @@ function ProjectCom(props) {
         <>
             <div data-aos="zoom-in" className="project-outer text-center col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12  ">
                 <div className="project-inner">
-                    <img src={props.img} width="100%" height="50%" />
+                    <img src={props.img} width="100%" height="50%" alt="project img" />
                     <h5>{props.title}</h5>
                     <p>{props.details}</p>
                     <div class="d-flex justify-content-around">
@@ -73,8 +73,7 @@ function Projects() {
             </Router> */}
 
 
-            {/* ////////// */}
-
+            {/* ////////// */} 
             <hr />
 
             <h1 data-aos="zoom-in" id="about" className="text-center p-1 pb-0"> Projects </h1>
@@ -82,7 +81,7 @@ function Projects() {
             <br />
 
             <div className="container-fluid">
-                <div className="row project-row" >
+                <div className="row project-row" itemscope="Projects" itemtype="https://omkarshinde.vercel.app/#projects" >
 
                     <ProjectCom img="../../images/portfolio.jpg" github="https://github.com/omkar-shinde-96k" priview="" title=" Instagram Clone " details="HTML , SCSS , Javascript , React Js , NodeJS , ExpressJS , MongoDB" />
 
@@ -100,12 +99,10 @@ function Projects() {
 
                     <ProjectCom img="../../images/calc.jpg" github="https://github.com/omkar-shinde-96k" priview="http://onlinecalculator.unaux.com/" title="Online Calculator" details=" &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HTML 5, CSS 3, Javascript  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " />
 
-
                     {/*  
                 </div>
 
                 <div className="row project-row" > */}
-
 
                 </div>
             </div>

@@ -22,10 +22,10 @@ const About = () => {
             <div className="container " >
                 <div className="row">
                     <div data-aos="fade-right" className="about-text text-center col-xl-6 col-sm-12 p-5 ">
-                        <img src="../images/omkar.jpg" width="300px" height="300px"></img>
+                        <img style={{borderRadius:"50%"}} src="../images/omkarshinde3.jpg" width="300px" height="300px" alt="image of omkar"/>
                         <h1> Who's this guy?</h1>
                         <p> I'm a Full Stack Web Developer ,
-                        I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. .</p>
+                        I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
                     </div>
 
                     <div data-aos="fade-right" className="text-center d-flex flex-column justify-content-center  col-xl-6 col-sm-12 ">
