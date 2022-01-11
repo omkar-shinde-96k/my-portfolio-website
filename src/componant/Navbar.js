@@ -46,7 +46,7 @@ function Navbar() {
                 </p>
                 <br />
                 <div style={{ display: "flex" }}>
-                    <a href="https://drive.google.com/file/d/1ibG6vJ19vLw_W84av2xUc-xXD2EcD3Yi/view"  itemprop="Download Resume"  itemtype="https://omkarshinde.vercel.app/"  className="mybtn text-center"> Hire Me</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a itemprop="telephone" href="https://wa.me/919309120138" className="mybtn text-center"> Download Resume</a>
+                    <a href="https://wa.me/919309120138"  itemprop="Download Resume"  itemtype="https://omkarshinde.vercel.app/"  className="mybtn text-center"> Hire Me</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a itemprop="telephone" href="https://drive.google.com/file/d/1ibG6vJ19vLw_W84av2xUc-xXD2EcD3Yi/view" className="mybtn text-center"> Download Resume</a>
                 </div>
                 <div className="social-icons">
                     <a href="https://github.com/omkar-shinde-96k" itemprop="Github"  itemtype="https://github.com/omkar-shinde-96k" class="fa fa-github"></a>
