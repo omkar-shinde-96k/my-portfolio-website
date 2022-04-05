@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h1>Sorry , Website Under Maintenance <h1/>
   </React.StrictMode>,
   document.getElementById('root')
 );
